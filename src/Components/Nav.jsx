@@ -35,6 +35,7 @@ export default function Nav() {
       </ul>
       </div>
         </div>
+        
         <div className='hidden md:flex space-x-4'>
             <button className='text-white'>Sign In</button>
             <button className='text-white border rounded-md border-[#9333EA] bg-[#9333EA] w-24 h-10' >Login</button>
