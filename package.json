@@ -1,11 +1,10 @@
 {
-  "homepage": "https://khemissatRa.github.io/landingpage",
   "name": "landingpage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    
     "dev": "vite",
     "build": "vigite build",
     "lint": "eslint .",
