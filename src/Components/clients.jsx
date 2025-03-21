@@ -14,7 +14,7 @@ export default function Clients() {
     <img src={logo1} alt="logo" />
     <img src={logo2} alt="logo"/>
     <img src={logo3}  alt="logo"/>
-    <img src="src\assets\Logo-grey  (4).png" alt="logo"/>
+    <img src={logo4} alt="logo"/>
 
    </div>
     </div>
