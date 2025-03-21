@@ -1,4 +1,3 @@
-import React from 'react'
 import Footer from './Components/Footer'
 import Header from './Components/header'
 import Nav from "./Components/Nav"
@@ -7,7 +6,7 @@ import  Featears from "./Components/featears"
 import Testimonials from './Components/Testimonials'
 import Post from './Components/Post'
 import './App.css' 
-export default function () {
+export default function App() {
   return (
     <div className='  min-h-screen     bg-[#0f172a]'>
         <Nav/>
@@ -26,7 +25,7 @@ src="src\assets\Shapes (1).png"
   description="Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia."
   upTitle="Discover" 
   styleThree="md:w-[375px] md:h-[379px] w-[220px] h-[222px]"
- Go={<p>Discover Ideas <i class="fa-solid fa-right-to-bracket"></i></p>}
+ Go={<p>Discover Ideas <i className="fa-solid fa-right-to-bracket"></i></p>}
 />
 
 
@@ -50,7 +49,7 @@ styleThree="md:w-[750px] md:h-[480px] w-[361px] h-[248px]"
   description="Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc.
 Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia."
   upTitle="Customers"
-  Go={<p>How Targeting Customers Works <i class="fa-solid fa-right-to-bracket"></i></p> }
+  Go={<p>How Targeting Customers Works <i className="fa-solid fa-right-to-bracket"></i></p> }
  
 />
 
