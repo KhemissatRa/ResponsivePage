@@ -1,4 +1,7 @@
 import Footer from './Components/Footer'
+import DesktopTwo from './assets/DesktopTwo.png'
+import Shape2 from './assets/Shapes (2) (1).png'
+import Shape from './assets/Shapes (1).png'
 import Header from './Components/header'
 import Nav from "./Components/Nav"
 import Clients from "./Components/clients"
@@ -19,7 +22,7 @@ export default function App() {
 
        <Featears 
 
-src="src\assets\Shapes (1).png"
+src={Shape}
   firstWorld="Unlimited" 
   title="ideas for your next great projects"
   description="Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia."
@@ -33,7 +36,7 @@ src="src\assets\Shapes (1).png"
 styleTwo="text-5xl"
 styleOne="max-w-[450px] min-h-[297px] w-[361px] h-[248px]"
 styleThree="md:w-[750px] md:h-[480px] w-[361px] h-[248px]"
-  src="src\assets\DesktopTwo.png"
+  src={DesktopTwo}
   title="All the tools you can imagine"
   description="Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh  sapien elit gravida ac, rutrum molestie adipiscing lacinia."
   upTitle="Powerful" 
@@ -42,7 +45,7 @@ styleThree="md:w-[750px] md:h-[480px] w-[361px] h-[248px]"
 <section id="Solution" >
 
 <Featears 
-  src="src\assets\Shapes (2) (1).png"
+  src={Shape2}
   firstWorld="Target"
   styleThree="md:w-[284px]  md:h-[284px] w-[215px] h-[215px]" 
   title="customers with our powerful AI kit"
@@ -57,7 +60,7 @@ Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia."
 styleTwo="text-5xl "
 styleOne="max-w-[450px] min-h-[297px]"
 styleThree="md:w-[750px] md:h-[480px] w-[361px] h-[248px]"
-  src="src\assets\DesktopTwo.png"
+  src={DesktopTwo}
   title="Work fast w/o interrup
   tions"
   description="Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia."

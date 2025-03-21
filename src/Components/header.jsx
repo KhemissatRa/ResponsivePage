@@ -1,5 +1,5 @@
-import React from 'react'
 
+import Desktop from '../assets/Desktop.png'
 export default function Header() {
   return (
     <div className='flex justify-center p-4 items-center flex-col max-h-full max-w-full'>
@@ -13,7 +13,7 @@ export default function Header() {
 
         </div>
         </div>
-        <img className="" src="src\assets\Desktop.png" alt='desktop'/>
+        <img className="" src={Desktop} alt='desktop'/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
-import React from 'react'
-
+import picture1 from '../assets/Picture (1) (1).png'
+import picture2 from '../assets/Picture (2) (1).png'
+import picture3 from '../assets/Picture (3).png'
 export default function Post() {
   return (
     <div className='bg-white space-y-8 p-8'>
@@ -10,7 +11,7 @@ export default function Post() {
  <div className='flex justify-center md:justify-between space-x-4 flex-col md:flex-row'>
  <div>
     <div className='relative'>
-    <img src="src\assets\Picture (1) (1).png" alt="" srcset="" />
+    <img src={picture1} alt="" />
     <h6  className='absolute left-2 top-4 p-1 border border-white bg-white rounded-md text-purple-600 text-xs ' >Design Thinking</h6>
 
     </div>
@@ -21,7 +22,7 @@ export default function Post() {
  </div>
  <div>
     <div className='relative'>
-    <img src="src\assets\Picture (2) (1).png" alt="" srcset="" />
+    <img src={picture2} alt="" />
     <h6  className='absolute left-2 top-4 p-1 border border-white bg-white rounded-md text-purple-600 text-xs ' >Festival</h6>
     </div>
     <h4 className='font-semibold'>Festival</h4>
@@ -31,7 +32,7 @@ export default function Post() {
  </div> 
  <div >
     <div className='relative'>
-    <img className=' z-10' src="src\assets\Picture (3).png" alt="" srcset="" />
+    <img className=' z-10' src={picture3} alt=""  />
     <h6 className='absolute left-2 top-4 p-1 border border-white bg-white rounded-md text-purple-600 text-xs '>Bootcamp</h6>
     </div>
     <h4 className='font-semibold'>Bootcamp</h4>
